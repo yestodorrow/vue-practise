@@ -9,4 +9,17 @@
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
+  <script>
+    !(function(doc,win){
+      var docEl = doc.documentElement;
+        fn = function() {
+            var width = docEl.getBoundingClientRect().width;       
+            var rem = width / 10 > 42?41.4:width / 10;
+            docEl.style.fontSize = rem + 'px';                                    
+        };
+     
+    win.addEventListener('resize', fn, false);
+    doc.addEventListener("DOMContentLoaded", fn, false);
+    })(document,window)
+  </script>
 </html>
