@@ -1,0 +1,14 @@
+{
+  "name": "express-practise",
+  "version": "1.0.0",
+  "description": "learning express",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "lg",
+  "license": "ISC"
+}
