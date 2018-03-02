@@ -1,0 +1,12 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "vue-practise"]
+	url = https://github.com/yestodorrow/vue-practise
+	fetch = +refs/heads/*:refs/remotes/vue-practise/*
+[remote "origin"]
+	url = https://github.com/yestodorrow/vue-practise.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
