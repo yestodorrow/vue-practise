@@ -2,8 +2,8 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-
-
+import axios from 'axios'
+Vue.prototype.axios=axios
 
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'swiper/dist/css/swiper.css'
@@ -17,8 +17,3 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
-export default{
-  components:{
-    swiper,swiperSlide
-  }
-}

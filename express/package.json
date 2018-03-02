@@ -4,11 +4,15 @@
   "description": "learning express",
   "main": "index.js",
   "scripts": {
-    "test": "dev"
+    "test": "node ./index.js",
+    "dev": "node-dev ./index.js"
   },
   "keywords": [
     "express"
   ],
   "author": "lg",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
